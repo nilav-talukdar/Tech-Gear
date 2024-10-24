@@ -1,0 +1,26 @@
+.main__hero {
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(180deg, #c4b6fd, #93acfc);
+}
+
+.main__button {
+    background-color: var(--navy-blue);
+    color: #fff;
+}
+
+.nav-item a {
+    color: #000;
+    opacity: 0.65;
+    transition: all 0.150s ease-in-out 0s;
+    &:hover {
+        color: var(--navy-blue);
+    }
+}
+
+.main__container > a {
+    color: var(--navy-blue);
+    &:hover {
+        color: var(--navy-blue);
+    }
+}
