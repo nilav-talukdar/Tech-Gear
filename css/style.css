@@ -4,6 +4,7 @@
 /* css component files */
 @import './components/navbar.css';
 @import './components/hero.css';
+@import './components/about.css';
 
 /* CSS Variables */
 :root {
@@ -15,4 +16,11 @@
 
 body {
     font-family: "Roboto", sans-serif;
+}
+
+/* custom media queries */
+@media screen and (max-width: 992px) {
+    #about {
+        gap: 3rem;
+    }
 }
