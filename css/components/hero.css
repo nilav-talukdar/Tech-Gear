@@ -1,0 +1,21 @@
+.hero-content--hero-text span {
+    color: var(--navy-blue);
+}
+
+.hero-content--hero-text h1 {
+    font-size: 3.5rem;
+}
+
+.hero-content--hero-text p {
+    color: #555;
+}
+
+.hero-content--hero-img {
+    height: 39rem;
+    max-width: 39rem;
+}
+
+.hero__button button {
+    min-width: 12rem;
+    background-color: var(--navy-blue);
+}

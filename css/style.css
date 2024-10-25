@@ -3,6 +3,7 @@
 
 /* css component files */
 @import './components/navbar.css';
+@import './components/hero.css';
 
 /* CSS Variables */
 :root {
