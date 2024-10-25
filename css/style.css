@@ -5,6 +5,7 @@
 @import './components/navbar.css';
 @import './components/hero.css';
 @import './components/about.css';
+@import './components/features.css';
 
 /* CSS Variables */
 :root {

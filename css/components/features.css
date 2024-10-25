@@ -1,0 +1,17 @@
+.main__features {
+    margin-top: 8rem;
+}
+
+.main__features h3 {
+    color: var(--navy-blue);
+    margin-bottom: 3.5rem;
+}
+
+.feature--card2 {
+    background-color: var(--navy-blue);
+}
+
+.card-body i {
+    background-color: #f2f2f2;
+    color: var(--navy-blue);
+}
