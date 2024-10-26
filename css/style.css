@@ -18,6 +18,7 @@
     --gray : #555;
 }
 
+/* body styles */
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -26,5 +27,9 @@ body {
 @media screen and (max-width: 992px) {
     #about {
         gap: 3rem;
+    }
+
+    .main__hero {
+        min-height: fit-content;
     }
 }
