@@ -1,0 +1,38 @@
+.main__products h3 {
+    color: var(--navy-blue);
+}
+
+.main__products {
+    margin-top: 9rem;
+}
+
+.main__links .active {
+    color: white;
+    background-color: var(--navy-blue);
+}
+
+.tab-content {
+    margin-top: 5rem;
+}
+
+.products__nav button {
+    color: #000 !important;
+    opacity: 0.9 !important;
+}
+
+.products__nav .active {
+    color: white !important;
+    background-color: var(--navy-blue) !important;
+}
+
+.tab-content .show {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 3rem !important;
+    flex-wrap: wrap !important;
+}
+
+#products .nav-tabs {
+    border: none;
+    outline: none;
+}

@@ -104,7 +104,7 @@
           <div class="row justify-content-center row-gap-4 align-items-center gx-lg-5">
 
             <div class="col-lg-4">
-              <div class="feature--card1 card">
+              <div class="feature--card1 card p-2">
                 <div class="card-body text-lg-start text-center">
                     <i class="fa-regular fa-lightbulb fa-lg fs-3 py-4 px-3 mt-2"></i>
                   <h5 class="card-title fs-2 my-2">Innovative Technology</h5>
@@ -116,7 +116,7 @@
             </div>
 
             <div class="col-lg-4">
-              <div class="card text-white feature--card2">
+              <div class="card text-white feature--card2 p-2">
                 <div class="card-body text-lg-start text-center">
                   <i class="fa-solid fa-shield-halved fa-lg fs-3 py-4 px-3 mt-2"></i>
                   <h5 class="card-title fs-2 my-2">Quality Assurance</h5>
@@ -128,7 +128,7 @@
             </div>
 
             <div class="col-lg-4">
-              <div class="card feature--card3">
+              <div class="card feature--card3 p-2">
                 <div class="card-body text-lg-start text-center">      
                     <i class="fa-solid fa-hourglass-half fa-lg fs-3 py-4 px-3 mt-2"></i>
                   <h5 class="card-title fs-2 my-2">Timely Delivery</h5>
@@ -143,6 +143,101 @@
         </section>
         <!-- Features section -->
 
+        <!-- Products Section -->
+        <section id="products" class="main__products">
+          <h3 class="fs-1 fw-semibold text-center mb-2">Our Products</h3>
+          
+          <nav>
+            <div class="nav nav-tabs justify-content-center fs-5 gap-4 mt-5 products__nav" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">All</button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Virtual Reality</button>
+              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Headphones</button>
+            </div>
+          </nav>
+          <div class="tab-content container-lg" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+              <img 
+                src="./assets/headphones-1.webp"
+                alt="headphones"
+                class="img-fluid"
+              />
+              <img
+                src="./assets/vr-1.webp"
+                alt="vr-headset"
+                class="img-fluid"
+              />
+              <img
+                src="./assets/vr-2.webp"
+                alt="vr-headset"
+                class="img-fluid"
+              />
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+              <img
+                src="./assets/vr-1.webp"
+                alt="vr-headset"
+                class="img-fluid"
+              />
+              <img
+                src="./assets/vr-2.webp"
+                alt="vr-headset"
+                class="img-fluid"
+              />
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+              <img 
+                src="./assets/headphones-1.webp"
+                alt="headphones"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- Products Section -->
+
+        <!-- Accordions -->
+        <section id="how-it-works" class="main__working container-lg px-4">
+          <h3 class="fs-1 fw-semibold text-center mb-5">How it works</h3>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button fs-3 fw-medium text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  How can I browse and explore products on TechGear Hub ?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body fs-5 mb-3">
+                  Ordering your favorite tech gear from TechGear Hub is a breeze. Once you've found the perfect product, simply add it to your cart and proceed to checkout. Our secure and efficient checkout process allows you to review your order, enter shipping details, and choose from multiple payment options. Rest assured, your transaction is protected, and your order will be swiftly processed.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-3 fw-medium text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What is the ordering process like ?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body fs-5 mb-3">
+                  Ordering your favorite tech gear from TechGear Hub is a breeze. Once you've found the perfect product, simply add it to your cart and proceed to checkout. Our secure and efficient checkout process allows you to review your order, enter shipping details, and choose from multiple payment options. Rest assured, your transaction is protected, and your order will be swiftly processed.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-3 fw-medium text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How does TechGear Hub ensure customer satisfaction ?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body fs-5 mb-3">
+                  At TechGear Hub, customer satisfaction is our top priority. We are committed to delivering high-quality products and exceptional service. Our team carefully inspects and packages each order, ensuring it reaches you in perfect condition. Additionally, our responsive customer support is ready to assist with any inquiries or concerns you may have. Join our community of satisfied customers who trust TechGear Hub for a seamless and enjoyable shopping experience.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Accordions -->
       </main>
   </body>
 </html>

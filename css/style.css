@@ -6,6 +6,8 @@
 @import './components/hero.css';
 @import './components/about.css';
 @import './components/features.css';
+@import './components/products.css';
+@import './components/working.css';
 
 /* CSS Variables */
 :root {

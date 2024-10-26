@@ -1,0 +1,12 @@
+.main__working h3 {
+    color: var(--navy-blue);
+}
+
+.main__working {
+    margin-top: 6rem;
+}
+
+.accordion-body {
+    color: #000;
+    opacity: 0.8;
+}
