@@ -1,5 +1,5 @@
 .main__hero {
-    min-height: 100vh;
+    height: fit-content;
     overflow: hidden;
     background: linear-gradient(180deg, #c4b6fd, #93acfc);
 }
