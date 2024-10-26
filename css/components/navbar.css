@@ -7,6 +7,12 @@
 .main__button {
     background-color: var(--navy-blue);
     color: #fff;
+    transition: all 0.3s ease-in-out 0s;
+        &:hover {
+            color: white;
+            background-color: var(--navy-blue);
+            opacity: 0.85;
+        }
 }
 
 .nav-item a {
