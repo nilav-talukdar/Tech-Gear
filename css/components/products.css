@@ -28,7 +28,7 @@
 .tab-content .show {
     display: flex !important;
     justify-content: center !important;
-    gap: 3rem !important;
+    gap: 2.5rem !important;
     flex-wrap: wrap !important;
 }
 

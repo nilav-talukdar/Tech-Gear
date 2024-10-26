@@ -8,6 +8,7 @@
 @import './components/features.css';
 @import './components/products.css';
 @import './components/working.css';
+@import './components/footer.css';
 
 /* CSS Variables */
 :root {

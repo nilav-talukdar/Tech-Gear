@@ -1,16 +1,16 @@
-.hero-content--hero-text span {
+.hero-content__text span {
     color: var(--navy-blue);
 }
 
-.hero-content--hero-text h1 {
+.hero-content__text h1 {
     font-size: 3.5rem;
 }
 
-.hero-content--hero-text p {
+.hero-content__text p {
     color: #555;
 }
 
-.hero-content--hero-img {
+.hero-content__img {
     height: 39rem;
     max-width: 39rem;
 }
