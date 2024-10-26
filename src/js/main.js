@@ -8,9 +8,9 @@ brandName.addEventListener('click', () => {
     window.location.reload();
 });
 
-new Typewriter('#type', {
+/* new Typewriter('#type', {
     strings: ['the Future of Tech'],
     loop: true,
     autoStart: true,
     delay: 50,
-  });
+  }); */
