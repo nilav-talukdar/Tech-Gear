@@ -10,9 +10,6 @@ Welcome to the Tech Gear landing page project! This project showcases a modern a
 - [Features](#features)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
